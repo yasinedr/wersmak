@@ -1,0 +1,6 @@
+# Configuration.
+/.htaccess
+/wp-config.php
+
+# WP dirs.
+wp-includes/*

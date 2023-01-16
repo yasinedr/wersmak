@@ -1,0 +1,366 @@
+# Translation of WP-Syntex - Polylang Pro in Arabic
+# This file is distributed under the same license as the WP-Syntex - Polylang Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-01 06:50:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ar\n"
+"Project-Id-Version: WP-Syntex - Polylang Pro\n"
+
+#: modules/import/view-tab-import-translations.php:21
+msgid "Upload a translation file"
+msgstr "قم برفع ملف الترجمة"
+
+#: modules/block-editor/navigation-language-switcher-block.php:173
+msgid "Language switcher submenu."
+msgstr "القائمة الفرعية لمحوّل اللغة."
+
+#: tests/phpunit/tests/pro/test-widgets-blocks-filter.php:35
+msgid "Block"
+msgstr "المكوّن"
+
+#. translators: %s is a suite of comma separate file formats, for example: PO,
+#. XLIFF
+#: modules/import-export/file-format-factory.php:112
+msgid "Error: Wrong file format. The supported file formats are: %s."
+msgstr "خطأ: تنسيق الملف خاطئ. تنسيق الملف المدعوم هي: %s."
+
+#: modules/xliff/xliff-import.php:82
+msgid "An error occurred during the import, please make sure your file is correctly formatted."
+msgstr "حدث خطأ أثناء الاستيراد، يرجى التأكد من تنسيق ملفك بشكل صحيح."
+
+#: modules/xliff/xliff-import.php:73
+msgid "Something went wrong during the file import."
+msgstr "حدث خطأ ما أثناء استيراد الملف."
+
+#: modules/xliff/xliff-import.php:61
+msgid "Your PHP installation appears to be missing the libxml extension which is required by the importer."
+msgstr "يبدو أن تنصيب PHP يفتقد ملحق libxml المطلوب بواسطة المستورد."
+
+#: modules/translate-slugs/settings-translate-slugs.php:20
+msgid "The module is automatically deactivated when using plain permalinks."
+msgstr "يتم إلغاء تفعيل الوحدة تلقائيًا عند استخدام الروابط الدائمة العادية."
+
+#: modules/share-slug/settings-share-slug.php:35
+msgid "The module is automatically deactivated when using plain permalinks or when the language is set from the content in the URL modifications."
+msgstr "يتم إلغاء تفعيل الوحدة تلقائيًا عند استخدام الروابط الدائمة العادية أو عندما يتم تعيين اللغة من المحتوى في تعديلات الرابط."
+
+#: modules/export/view-tab-export-strings.php:61
+msgid "Export file format"
+msgstr "تصدير تنسيق الملف:"
+
+#: modules/locale-fallback/view-locale-fallback.php:13
+msgid "Locale fallback"
+msgstr "اللغة الاحتياطية"
+
+#: modules/locale-fallback/view-locale-fallback.php:15
+msgid "WordPress locale to use if a translation file is not available in the main locale."
+msgstr "لغة ووردبريس المراد استخدامها في حالة عدم توفر ملف الترجمة في اللغة الرئيسية."
+
+#: modules/block-editor/navigation-language-switcher-block.php:88
+#: modules/block-editor/js/blocks/block.js:30
+msgid "Language switcher settings"
+msgstr "إعدادات محوّل اللغة"
+
+#: modules/import/import-action.php:218
+msgid "The translation of the following string was not imported for security reasons:"
+msgid_plural "The translation of the following strings were not imported for security reasons:"
+msgstr[0] "لم يتم استيراد ترجمة الجملة التالية لأسباب أمنية:"
+msgstr[1] "لم يتم استيراد ترجمة الجملة التالية لأسباب أمنية:"
+msgstr[2] "لم يتم استيراد ترجمة الجمل التالية لأسباب أمنية:"
+msgstr[3] "لم يتم استيراد ترجمة الجمل التالية لأسباب أمنية:"
+msgstr[4] "لم يتم استيراد ترجمة الجملة التالية لأسباب أمنية:"
+msgstr[5] "لم يتم استيراد ترجمة الجملة التالية لأسباب أمنية:"
+
+#: modules/import-export/import-export.php:158
+msgid "Error: you haven't selected any target language to be exported."
+msgstr "خطأ: لم تحدد أي لغة هدف ليتم تصديرها."
+
+#: modules/import-export/import-export.php:119
+#: modules/import-export/import-export.php:149
+msgid "Sorry, you are not allowed to manage options for this site."
+msgstr "عفوًا، غير مسموح لك بالتحكم في الإعدادات لهذا الموقع."
+
+#: modules/import-export/import-export.php:80
+msgid "Import string translations"
+msgstr "استيراد ترجمات سلسلة"
+
+#: modules/import-export/import-export.php:72
+msgid "Export string translations"
+msgstr "تصدير ترجمات السلسلة"
+
+#: modules/export/view-tab-export-strings.php:71
+msgid "Download"
+msgstr "تنزيل"
+
+#: modules/export/view-tab-export-strings.php:46
+msgid "Export all groups"
+msgstr "تصدير كافة المجموعات"
+
+#: modules/export/view-tab-export-strings.php:43
+msgid "Filter group"
+msgstr "مجموعة التصفية:"
+
+#: modules/export/view-tab-export-strings.php:27
+msgid "Target languages"
+msgstr "اللغات الهدف:"
+
+#: modules/export/export-strings-translations.php:132
+msgid "Error: Impossible to create a zip file."
+msgstr "خطأ: من المستحيل إنشاء ملف مضغوط."
+
+#: modules/bulk-translate/bulk-translate.php:216
+msgid "Error: No target language has been selected. Please make sure to select at least one target language."
+msgstr "خطأ: لم يتم تحديد اللغة الهدف. يرجى التأكد من تحديد لغة هدف واحدة على الأقل."
+
+#: modules/bulk-translate/bulk-translate.php:206
+msgid "No item has been selected. Please make sure to select at least one item to be translated."
+msgstr "لم يتم تحديد أي عنصر. يرجى التأكد من تحديد عنصر واحد على الأقل ليتم ترجمته."
+
+#: integrations/acf/acf-sync-metas.php:85
+#: integrations/acf/acf-sync-metas.php:103
+msgid "Synchronize"
+msgstr "تزامن"
+
+#: integrations/acf/acf-sync-metas.php:83
+#: integrations/acf/acf-sync-metas.php:102
+msgid "Copy once"
+msgstr "نسخ مرة واحدة"
+
+#: integrations/acf/acf-sync-metas.php:82
+#: integrations/acf/acf-sync-metas.php:101
+msgid "Ignore"
+msgstr "تجاهل"
+
+#: modules/po/po-import.php:47
+msgid "Error: Invalid file."
+msgstr "خطأ: ملف غير صالح."
+
+#. translators: %s is a file format, for example PO
+#: modules/import-export/file-format-factory.php:109
+msgid "Error: Wrong file format. The only supported file format is %s."
+msgstr "خطأ: تنسيق ملف خاطئ. تنسيق الملف المدعومة هي: %s."
+
+#: modules/import/view-tab-import-translations.php:26
+msgid "Upload"
+msgstr "رفع"
+
+#: modules/import/import-action.php:142
+msgid "Error: You are trying to import a file in a language which doesn't exist on your site."
+msgstr "خطأ: أنت تحاول استيراد ملف بلغة غير موجودة في موقعك."
+
+#: modules/import/import-action.php:139
+msgid "Error: No target languages have been provided in the imported file."
+msgstr "خطأ: لم يتم توفير اللغات الهدف في الملف المستورد."
+
+#: modules/import/import-action.php:133
+msgid "Error: The site targeted in the imported file does not match the current site."
+msgstr "خطأ: الموقع المستهدف في الملف المستورد لا يتطابق مع الموقع الحالي."
+
+#. translators: %d is a number of strings translations
+#: modules/import/import-action.php:112
+msgid "%d string translation updated."
+msgid_plural "%d string translations updated."
+msgstr[0] "تم تحديث ترجمة السلسلة %d."
+msgstr[1] "تم تحديث ترجمة السلسلة %d."
+msgstr[2] "تم تحديث ترجمات السلسلة %d."
+msgstr[3] "تم تحديث ترجمات السلسلة %d."
+msgstr[4] "تم تحديث ترجمات السلسلة %d."
+msgstr[5] "تم تحديث ترجمات السلسلة %d."
+
+#: modules/import/import-action.php:83
+msgid "Error: You haven't selected a file to be uploaded."
+msgstr "خطأ: لم تقم بتحديد ملف لتحميله."
+
+#: modules/active-languages/active-languages.php:111
+msgid "Activate"
+msgstr "التفعيل"
+
+#: modules/block-editor/language-switcher-block.php:53
+msgid "Choose a language"
+msgstr "اختر لغة"
+
+#: modules/active-languages/active-languages.php:119
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: integrations/acf/acf-sync-metas.php:61
+#: modules/rest/rest-translated-object.php:83
+#: modules/block-editor/js/sidebar/components/translations-table/index.js:53
+msgid "Translations"
+msgstr "الترجمات"
+
+#: modules/metabox-button/metabox-button.php:165
+#: modules/block-editor/js/sidebar/components/synchronization-button/index.js:90
+msgid "You are about to overwrite an existing translation. Are you sure you want to proceed?"
+msgstr "أنت على وشك الكتابة فوق ترجمة موجودة. هل انت متأكد انك تريد المتابعة؟"
+
+#: modules/rest/rest-translated-object.php:68
+#: modules/block-editor/js/sidebar/components/language-item/index.js:30
+#: modules/block-editor/js/sidebar/components/switcher/index.js:156
+#: modules/block-editor/js/sidebar/components/switcher/index.js:157
+msgid "Language"
+msgstr "اللغة"
+
+#: modules/xdata/xdata-session-manager.php:63
+#: tests/phpunit/tests/pro/test-xdata-session-manager.php:33
+#: tests/phpunit/tests/pro/test-xdata-session-manager.php:56
+#: tests/phpunit/tests/pro/test-xdata-session-manager.php:77
+msgid "An error has occurred."
+msgstr "لقد حدث خطأ."
+
+#: modules/translate-slugs/translate-slugs-model.php:462
+msgid "URL slugs"
+msgstr "رابط الأسماء اللطيفة slugs"
+
+#: modules/sync-post/sync-post-rest.php:53
+msgid "Synchronizations"
+msgstr "التزامنات"
+
+#: modules/sync-post/sync-post-button.php:41
+#: tests/phpunit/tests/pro/test-ajax-metabox-button.php:93
+#: modules/block-editor/js/sidebar/components/synchronization-button/index.js:68
+msgid "Don't synchronize this post"
+msgstr "لا تزامن هذه المقالة"
+
+#: modules/sync-post/sync-post-button.php:40
+#: tests/phpunit/tests/pro/test-ajax-metabox-button.php:105
+#: modules/block-editor/js/sidebar/components/synchronization-button/index.js:68
+#: modules/block-editor/js/sidebar/components/synchronization-button/index.js:86
+msgid "Synchronize this post"
+msgstr "قم بمزامنة هذه المقالة"
+
+#: modules/rest/rest-filtered-object.php:101
+msgid "Limit results to a specific language."
+msgstr "تحديد النتائج إلى لغة معينة."
+
+#: modules/rest/rest-post.php:145
+msgid "Translations table"
+msgstr "جدول الترجمات"
+
+#: modules/rest/rest-api.php:156
+msgid "Are we in a block editor context?"
+msgstr "هل نحن في سياق محرر مكوّن؟"
+
+#: modules/rest/rest-api.php:151
+msgid "Add this post's translation to results."
+msgstr "أضف ترجمة هذه المقالة إلى النتائج."
+
+#: modules/rest/rest-api.php:147
+msgid "Limit results to those matching a string."
+msgstr "حصر النتائج على من يطابق سلسلة نصية."
+
+#: modules/rest/rest-api.php:141
+msgid "Limit results to items in a language."
+msgstr "الحد من النتائج على العناصر في اللغة."
+
+#: modules/rest/rest-api.php:135
+msgid "Limit results to untranslated items in a language."
+msgstr "الحد من النتائج على العناصر الغير المترجمة في اللغة."
+
+#: modules/rest/rest-api.php:129
+msgid "Limit results to items of an object type."
+msgstr "حصر النتائج على العناصر من نوع الكائن."
+
+#: modules/media/settings-advanced-media.php:50
+msgid "Automatically duplicate media in all languages when uploading a new file."
+msgstr "تكرار الوسائط تلقائيًا بجميع اللغات عند رفع ملف جديد."
+
+#: modules/media/settings-advanced-media.php:33
+msgid "Activate languages and translations for media. Provides options for multilingual media management."
+msgstr "تفعيل اللغات والترجمات للوسائط. يوفر خيارات لإدارة الوسائط المتعددة اللغات."
+
+#: modules/media/settings-advanced-media.php:32
+msgid "Media"
+msgstr "وسائط"
+
+#: modules/duplicate/duplicate.php:26
+#: tests/phpunit/tests/pro/test-ajax-metabox-button.php:43
+msgid "Deactivate content duplication"
+msgstr "تعطيل تكرار المحتوى"
+
+#: modules/duplicate/duplicate.php:25
+#: tests/phpunit/tests/pro/test-ajax-metabox-button.php:56
+msgid "Activate content duplication"
+msgstr "تفعيل تكرار المحتوى"
+
+#: modules/bulk-translate/view-bulk-translate.php:53
+msgid "Submit"
+msgstr "إرسال"
+
+#: modules/bulk-translate/view-bulk-translate.php:52
+#: modules/block-editor/js/sidebar/components/confirmation-modal/index.js:64
+msgid "Cancel"
+msgstr "إلغاء "
+
+#: modules/sync-post/sync-post.php:46
+msgid "Synchronize original items with translation in selected languages"
+msgstr "مزامنة العناصر الأصلية مع الترجمة باللغات المحددة"
+
+#: modules/media/admin-advanced-media.php:48 modules/sync-post/sync-post.php:56
+msgid "Copy original items to selected languages"
+msgstr "نسخ العناصر الأصلية إلى اللغات المحددة"
+
+#: modules/bulk-translate/view-bulk-translate.php:33
+msgid "Action"
+msgstr "الإجراء"
+
+#: modules/bulk-translate/view-bulk-translate.php:17
+msgid "Bulk translate"
+msgstr "ترجمة بالجملة"
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:215
+msgid "To avoid overwriting content, %d translation was not created."
+msgid_plural "To avoid overwriting content, %d translations were not created."
+msgstr[0] "لتجنب الكتابة فوق المحتوى، لم يتم إنشاء ترجمة %d."
+msgstr[1] "لتجنب الكتابة فوق المحتوى، لم يتم إنشاء ترجمة %d."
+msgstr[2] "لتجنب الكتابة فوق المحتوى، لم يتم إنشاء ترجمات %d."
+msgstr[3] "لتجنب الكتابة فوق المحتوى، لم يتم إنشاء ترجمات %d."
+msgstr[4] "لتجنب الكتابة فوق المحتوى، لم يتم إنشاء ترجمات %d."
+msgstr[5] "لتجنب الكتابة فوق المحتوى، لم يتم إنشاء ترجمات %d."
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:205
+msgid "%d translation created."
+msgid_plural "%d translations created."
+msgstr[0] "تم إنشاء %d ترجمة."
+msgstr[1] "تم إنشاء %d ترجمة."
+msgstr[2] "تم إنشاء %d ترجمات."
+msgstr[3] "تم إنشاء %d ترجمات."
+msgstr[4] "تم إنشاء %d ترجمة."
+msgstr[5] "تم إنشاء %d ترجمة."
+
+#: integrations/acf/acf-sync-metas.php:84
+#: modules/bulk-translate/bulk-translate.php:276
+msgid "Translate"
+msgstr "ترجم"
+
+#: modules/active-languages/active-languages.php:117
+msgid "Deactivate this language"
+msgstr "قم بتعطيل هذه اللغة"
+
+#: modules/active-languages/active-languages.php:109
+msgid "Activate this language"
+msgstr "تفعيل هذه اللغة"
+
+#. Author of the plugin
+msgid "WP SYNTEX"
+msgstr "WP SYNTEX"
+
+#. Description of the plugin
+msgid "Adds multilingual capability to WordPress"
+msgstr "إضافة إمكانية تعدد اللغات لووردبرس"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://polylang.pro"
+msgstr "https://polylang.pro"
+
+#. Plugin Name of the plugin
+msgid "Polylang Pro"
+msgstr "Polylang Pro"
